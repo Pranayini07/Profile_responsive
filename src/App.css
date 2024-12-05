@@ -36,3 +36,105 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Profile.css */
+
+.Profile {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(56, 249, 249, 0.712);
+  width: 40%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: start;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.input-with-icon input[type="text"],
+.input-with-icon input[type="email"],
+.input-with-icon input[type="tel"],
+.input-with-icon textarea {
+  width: calc(100% - 30px);
+  padding-right: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.profile-photo {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.edit-icon {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #007bff;
+  font-size: 16px;
+}
+img{
+  border-radius: 60%;
+}
+.logo{
+  padding: 1%;
+}
+.logo2{
+  margin-inline-start: 32%;
+}
+.background{
+  background-color: #282c34;
+  height: 100vh;
+}
+.camera-icon {
+  font-size: 24px;
+  margin-right: 15%;
+  margin-left: 19%;
+}
+.logo1 img {
+  max-width: 100px; /* Adjust as needed */
+  max-height: 100px; /* Adjust as needed */
+  border-radius: 50%; /* Keep the circular shape */
+  margin-left: 30%;
+}
+
